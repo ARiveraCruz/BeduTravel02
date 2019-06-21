@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 18vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav a{
+    color:white;
+}
+
+.hero {
+    background-image: url("https://media.viajando.travel/adjuntos/236/imagenes/000/046/0000046510.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 10px;
+    height: 40vh;
+}
+
+.hero-titles {
+    color: black;    
+    text-align: center;    
+}
+
+.portada-input {
+    background-color: whitesmoke;
+    height: 40px;
+    width: 20%;
+    color: white;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.opciones-titles {
+    text-align: center;
+}
+
+.boton-portada{
+    background-size: cover;
+    height: 28px;
+    width: 28px;
+    background-image: url("http://www.baldwinfilter.com/image/FindFilter.png")
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(150px,3);
+    grid-gap: 10px;
+}
+
+.flex-box{
+    display: flex;
+    flex-flow: wrap;    
+}
+
+.box {   
+    width: 1fr;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.places{
+    width: 100%;
+}
